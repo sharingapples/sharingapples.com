@@ -1,0 +1,16 @@
+baseURL = "http://www.sharingapples.com/"
+languageCode = "en-us"
+title = "SharingApples"
+theme = "main-road"
+pygmentsCodeFences = true
+[Params]
+  toc = true
+  post_navigation = true
+  post_meta = ["date"]
+  readmore = false
+
+[Params.sidebar]
+  home = "left"
+  list = "right"
+  single = false
+  widgets = ["recent"]
