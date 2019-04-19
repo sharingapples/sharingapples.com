@@ -1,4 +1,4 @@
-baseURL = "http://www.sharingapples.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "SharingApples"
 theme = "main-road"
@@ -10,7 +10,10 @@ pygmentsCodeFences = true
   readmore = false
 
 [Params.sidebar]
-  home = "left"
+  home = "right"
   list = "right"
-  single = false
-  widgets = ["recent"]
+  single = true
+  widgets = ["recent", "categories", "taglist", "social"]
+
+[Params.widgets.social]
+  github = "sharingapples"

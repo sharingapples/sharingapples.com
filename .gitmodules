@@ -1,3 +1,6 @@
 [submodule "themes/main-road"]
 	path = themes/main-road
 	url = https://github.com/sharingapples/Mainroad.git
+[submodule "public"]
+	path = public
+	url = git@github.com:sharingapples/sharingapples.github.io
