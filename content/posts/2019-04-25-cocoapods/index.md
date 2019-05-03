@@ -8,7 +8,10 @@ toc: true
 categories:
   - "React Native"
 tags:
-  - "React Native", "iOS", "cocoapods", "pods"
+  - "React Native"
+  - "iOS"
+  - "cocoapods"
+  - "pods"
 ---
 # Initialize pod
 
