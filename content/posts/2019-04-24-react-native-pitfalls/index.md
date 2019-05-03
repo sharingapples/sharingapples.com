@@ -30,3 +30,14 @@ To fix this issue, just make sure that any one of the parents
 are not collapsable. Which can be done by adding various
 styles `backgroundColor`, `border`, etc that requires the view
 to be drawn, or by adding `collapsable={false}`. [Read more about it](https://facebook.github.io/react-native/docs/view#collapsable).
+
+## 2. Text Layout Calculation with Font Weight
+With certain android phones like One Plus and Oppo, that
+provide their own system font, React Native fails to
+display the entire text (looks like a miscalculated width)
+when `font-weight` property is set. To resolve, use standard
+fonts like **Roboto**.
+
+The problem has issue reports (no resolution yet).
+1. https://github.com/facebook/react-native/issues/21729
+2. https://github.com/facebook/react-native/issues/15114
